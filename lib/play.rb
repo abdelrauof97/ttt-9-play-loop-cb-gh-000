@@ -36,8 +36,8 @@ def turn(board)
 end
 
 def play(board)
-  puts "succeful input"
   9.times do
     turn(board)
+    puts "succeful input"
   end
 end
