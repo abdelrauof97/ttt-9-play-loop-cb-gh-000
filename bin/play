@@ -7,7 +7,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Welcome to Tic Tac Toe!"
 display_board(board)
 
-counter = 0
+counter = 1
 while counter < 10
   turn(board)
   counter += 1
